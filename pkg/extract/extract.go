@@ -19,11 +19,11 @@ func New(doc *parser.Document) *Extractor {
 
 // TextOptions controls text extraction behavior.
 type TextOptions struct {
-	IncludeScripts bool
-	IncludeStyles  bool
+	IncludeScripts  bool
+	IncludeStyles   bool
 	IncludeComments bool
-	TrimWhitespace bool
-	MinLength      int // minimum text node length to include
+	TrimWhitespace  bool
+	MinLength       int // minimum text node length to include
 }
 
 // DefaultTextOptions returns sensible defaults for text extraction.

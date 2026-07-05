@@ -9,13 +9,13 @@ import (
 
 // Minifier removes unnecessary whitespace and optional tags from HTML.
 type Minifier struct {
-	RemoveComments      bool
-	RemoveOptionalTags  bool
-	CollapseWhitespace  bool
-	MinifyInlineCSS     bool
-	MinifyInlineJS      bool
-	RemoveEmptyAttrs    bool
-	SortAttrs           bool
+	RemoveComments     bool
+	RemoveOptionalTags bool
+	CollapseWhitespace bool
+	MinifyInlineCSS    bool
+	MinifyInlineJS     bool
+	RemoveEmptyAttrs   bool
+	SortAttrs          bool
 }
 
 // Default returns a Minifier with sensible defaults.

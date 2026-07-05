@@ -340,9 +340,9 @@ func TestMarkdownTable(t *testing.T) {
 
 func TestMinifyHTML(t *testing.T) {
 	tests := []struct {
-		name     string
-		html     string
-		contains []string
+		name        string
+		html        string
+		contains    []string
 		notContains []string
 	}{
 		{"removes comments", "<html><!-- c --><body><p>H</p></body></html>", []string{"<p>H</p>"}, []string{"<!--"}},

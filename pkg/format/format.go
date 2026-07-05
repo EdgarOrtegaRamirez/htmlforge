@@ -19,8 +19,8 @@ type Formatter struct {
 // Default returns a Formatter with sensible defaults.
 func Default() *Formatter {
 	return &Formatter{
-		Indent:     "  ",
-		MaxLineLen: 0,
+		Indent:      "  ",
+		MaxLineLen:  0,
 		IndentAttrs: false,
 		SelfClose:   false,
 		QuoteStyle:  "double",
